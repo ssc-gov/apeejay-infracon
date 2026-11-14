@@ -9,13 +9,13 @@ export function Footer() {
           <p className="mt-4 max-w-xs text-sm">Apeejay Infracon Private Limited. Construction and infrastructure.</p>
         </div>
         <nav aria-label="Footer">
-          <h2 className="mb-3 font-bold text-white">Explore</h2>
+          <p className="mb-3 font-bold text-white">Explore</p>
           <ul className="space-y-2 text-sm">
             {NAV.map((n) => <li key={n.href}><a href={n.href} className="hover:text-accent">{n.label}</a></li>)}
           </ul>
         </nav>
         <div>
-          <h2 className="mb-3 font-bold text-white">Get in touch</h2>
+          <p className="mb-3 font-bold text-white">Get in touch</p>
           <ul className="space-y-2 text-sm">
             <li><a href={CONTACT.phoneHref} className="hover:text-accent">{CONTACT.phoneDisplay}</a></li>
             <li><a href={`mailto:${CONTACT.email}`} className="hover:text-accent">{CONTACT.email}</a></li>

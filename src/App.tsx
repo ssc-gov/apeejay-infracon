@@ -5,6 +5,8 @@ import { Services } from "./components/Services";
 import { About } from "./components/About";
 import { Projects } from "./components/Projects";
 import { Leadership } from "./components/Leadership";
+import { ReadyMix } from "./components/ReadyMix";
+import { Faq } from "./components/Faq";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 
@@ -18,7 +20,9 @@ export default function App() {
         <Services />
         <About />
         <Projects />
+        <ReadyMix />
         <Leadership />
+        <Faq />
         <Contact />
       </main>
       <Footer />

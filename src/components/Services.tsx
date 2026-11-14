@@ -4,7 +4,7 @@ import { Reveal, SectionHeading } from "./Reveal";
 export function Services() {
   return (
     <section id="services" className="mx-auto max-w-7xl px-5 py-24 sm:px-8">
-      <SectionHeading eyebrow="What we do" title="From the first drawing to the finished structure" />
+      <SectionHeading eyebrow="What we do" title="Construction services: planning, modelling and management" />
       <ul className="grid gap-8 md:grid-cols-3">
         {SERVICES_LIST.map((s, i) => (
           <li key={s.title}>

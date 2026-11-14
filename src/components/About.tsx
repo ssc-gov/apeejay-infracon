@@ -9,7 +9,7 @@ export function About() {
           <img src="/images/about.webp" alt="Aerial view of a construction site with a red crawler crane and concrete walls" width={706} height={410} loading="lazy" className="w-full object-cover shadow-2xl" />
         </Reveal>
         <div>
-          <SectionHeading eyebrow="About us" title="Building complete constructions since 2001" light />
+          <SectionHeading eyebrow="About us" title="Building construction and railway-side work since 2001" light />
           <Reveal delay={0.1}>
             <p className="max-w-xl leading-relaxed text-white/80">
               Apeejay Infracon Private Limited is a privately held, non-government company incorporated on 5 December 2001 and registered with the Registrar of Companies, Delhi. The company is engaged in the building of complete constructions and railway-side work.

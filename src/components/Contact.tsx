@@ -37,7 +37,7 @@ export function Contact() {
 
   return (
     <section id="contact" className="mx-auto max-w-7xl px-5 py-24 sm:px-8">
-      <SectionHeading eyebrow="Contact" title="Tell us about your project" />
+      <SectionHeading eyebrow="Contact" title="Contact Apeejay Infracon for construction and RMC enquiries" />
       <div className="grid gap-12 lg:grid-cols-5">
         <Reveal className="lg:col-span-3">
           <form onSubmit={handleSubmit(onSubmit)} noValidate className="grid gap-5 sm:grid-cols-2" aria-label="Enquiry form">

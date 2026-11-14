@@ -34,7 +34,7 @@ export function Projects() {
 
   return (
     <section id="projects" className="mx-auto max-w-7xl px-5 py-24 sm:px-8">
-      <SectionHeading eyebrow="Projects" title="Sites and plants we have worked on" />
+      <SectionHeading eyebrow="Projects" title="Construction projects and RMC plants in Khurja, Uttar Pradesh" />
       <ul className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
         {PROJECTS.map((p, i) => (
           <li key={p.title}>
